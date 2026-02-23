@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammed Rishal | Cybersecurity Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body { background-color: #0f172a; color: #e2e8f0; }
+        .cyber-card { background: #1e293b; border: 1px solid #334155; transition: 0.3s; }
+        .cyber-card:hover { border-color: #38bdf8; transform: translateY(-5px); }
+        .neon-text { color: #38bdf8; text-shadow: 0 0 10px rgba(56, 189, 248, 0.5); }
+    </style>
+</head>
+<body class="font-sans">
+
+    <!-- Navigation -->
+    <nav class="p-6 flex justify-between items-center max-w-6xl mx-auto">
+        <h1 class="text-2xl font-bold neon-text uppercase tracking-widest">MR_SEC</h1>
+        <div class="space-x-6">
+            <a href="#about" class="hover:text-sky-400">About</a>
+            <a href="#projects" class="hover:text-sky-400">Projects</a>
+            <a href="#skills" class="hover:text-sky-400">Skills</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="py-20 text-center px-4">
+        <h2 class="text-5xl md:text-7xl font-extrabold mb-4">Muhammed Rishal</h2>
+        <p class="text-xl md:text-2xl text-slate-400 mb-8 max-w-2xl mx-auto">
+            Cybersecurity Enthusiast | Ethical Hacker | SOC Analyst Aspirant
+        </p>
+        <div class="flex justify-center gap-4">
+            <a href="#" class="bg-sky-500 hover:bg-sky-600 text-white px-6 py-3 rounded-md font-bold transition">Download Resume</a>
+            <a href="https://github.com" class="border border-sky-500 text-sky-500 px-6 py-3 rounded-md font-bold hover:bg-sky-500 hover:text-white transition">GitHub</a>
+        </div>
+    </header>
+
+    <!-- Stats/Quick Info -->
+    <section id="about" class="max-w-6xl mx-auto px-6 py-10 grid md:grid-cols-3 gap-6">
+        <div class="cyber-card p-6 rounded-lg text-center">
+            <i class="fas fa-shield-alt text-3xl mb-4 text-sky-400"></i>
+            <h3 class="font-bold">Defensive Security</h3>
+            <p class="text-sm text-slate-400 mt-2">Monitoring, Threat Hunting, and Incident Response.</p>
+        </div>
+        <div class="cyber-card p-6 rounded-lg text-center">
+            <i class="fas fa-user-secret text-3xl mb-4 text-sky-400"></i>
+            <h3 class="font-bold">Offensive Security</h3>
+            <p class="text-sm text-slate-400 mt-2">Vulnerability Assessment and Penetration Testing.</p>
+        </div>
+        <div class="cyber-card p-6 rounded-lg text-center">
+            <i class="fas fa-terminal text-3xl mb-4 text-sky-400"></i>
+            <h3 class="font-bold">Security Scripting</h3>
+            <p class="text-sm text-slate-400 mt-2">Automation with Python and Bash scripting.</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="max-w-6xl mx-auto px-6 py-20">
+        <h2 class="text-3xl font-bold mb-10 border-l-4 border-sky-500 pl-4">Featured Projects</h2>
+        <div class="grid md:grid-cols-2 gap-8">
+            <!-- Project 1 -->
+            <div class="cyber-card rounded-xl overflow-hidden">
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">Active Directory Home Lab</h3>
+                    <p class="text-slate-400 mb-4 text-sm">Set up a Windows Server 2019 lab with vulnerable GPOs to simulate real-world attacks like Kerberoasting.</p>
+                    <div class="flex gap-2">
+                        <span class="text-xs bg-slate-700 px-2 py-1 rounded">VirtualBox</span>
+                        <span class="text-xs bg-slate-700 px-2 py-1 rounded">Active Directory</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="cyber-card rounded-xl overflow-hidden">
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">Network Traffic Analysis</h3>
+                    <p class="text-slate-400 mb-4 text-sm">Analyzed PCAP files using Wireshark to identify SQL Injection and Brute Force attack patterns.</p>
+                    <div class="flex gap-2">
+                        <span class="text-xs bg-slate-700 px-2 py-1 rounded">Wireshark</span>
+                        <span class="text-xs bg-slate-700 px-2 py-1 rounded">Blue Team</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="bg-slate-900/50 py-20">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-10 text-center">Technical Arsenal</h2>
+            <div class="flex flex-wrap justify-center gap-4">
+                <span class="bg-slate-800 border border-slate-700 px-4 py-2 rounded-full text-sky-400 font-mono italic">#Nmap</span>
+                <span class="bg-slate-800 border border-slate-700 px-4 py-2 rounded-full text-sky-400 font-mono italic">#Metasploit</span>
+                <span class="bg-slate-800 border border-slate-700 px-4 py-2 rounded-full text-sky-400 font-mono italic">#Wireshark</span>
+                <span class="bg-slate-800 border border-slate-700 px-4 py-2 rounded-full text-sky-400 font-mono italic">#Splunk</span>
+                <span class="bg-slate-800 border border-slate-700 px-4 py-2 rounded-full text-sky-400 font-mono italic">#Linux</span>
+                <span class="bg-slate-800 border border-slate-700 px-4 py-2 rounded-full text-sky-400 font-mono italic">#Python</span>
+                <span class="bg-slate-800 border border-slate-700 px-4 py-2 rounded-full text-sky-400 font-mono italic">#BurpSuite</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-10 text-center text-slate-500 border-t border-slate-800">
+        <p>&copy; 2023 Muhammed Rishal | Securely Built</p>
+        <div class="mt-4 flex justify-center gap-6 text-xl">
+            <a href="#" class="hover:text-sky-400"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="hover:text-sky-400"><i class="fab fa-github"></i></a>
+            <a href="mailto:yourname@email.com" class="hover:text-sky-400"><i class="fas fa-envelope"></i></a>
+        </div>
+    </footer>
+
+</body>
+</html>
